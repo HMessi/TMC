@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	
+	<title>Request</title>
+	<script src="modernizr.custom.95132.js"></script>
+	<link href="StyleSS.css" rel="Stylesheet" type="text/css" />
+	
+	<a href="Home.html"><img src="image/logo1.png" width="300" height="70" border="0" alt="logo" title="Home"></a>
+	
+	
+	<nav class="NAV">
+	<ul>
+	  
+	      <li><a href="Home.html"><img src="image/home.png" width="80" height="70" alt="Home" title="Home"></a></li>
+		  <li><a href="Books.html"><img src="image/books.png" width="80" height="70" alt="Tari McCaffery Books" title="Tari McCaffery Books"></a></li>
+		  <li><a href="Writer.html"><img src="image/writing.png" width="80" height="70" alt="How to be a writer" title="How to Be a Writer"></a></li>
+		  <li><a href="News.html"><img src="image/news.png" width="80" height="70" alt="News" title="News"></a></li>
+		  <li><a href="About.html"><img src="image/about.png" width="80" height="70" alt="About Tari" title="About"></a></li>
+		  <li><a href="Request.html"><img src="image/request.png" width="80" height="70" alt="Request" title="Request"></a></li>
+		
+		  
+		</ul>
+		</nav>
+		<h2>Ask Tari McCaffery</h2>
+	
+</head>
+
+
+
+<body>
+<div id="mcontainer">
+	<form action="request_done.html"  method="post" onsubmit="return validateForm(this);" class="list-form">
+<table>
+	<tr>
+		<td><label for="firstname">First Name:</label></td>	
+		<td><input id="firstname" type="text" name="username" required></td>
+	</tr>
+	<tr>
+		<td><label for="lastname">Last Name:</label></td>	
+		<td><input id="lastname" type="text" name="username" required></td>
+	</tr>	
+	<tr>
+		<td><label for="Emailaddress">Email address:</label></td>
+		<td><input id="Emailaddress" type="email" name="Email address" required></td>
+	</tr>
+	<tr>
+		<td><span>Gender</span></td>
+		<td><label>Male</label><input type="radio" name="Gender" value="Male"/><br>
+		<label>Female</label><input type="radio" name="Gender" value="Female"/></td>
+	</tr>
+	<tr>
+		<td><label for="DateofBirth">Date Of Birth:</label></td>
+		<td><input id="DateofBirth" type="date" name="Date of Birth" required></td>
+	</tr>	
+	<tr>
+		<td><label for="Numbersofbooks">How many books of Tari McCaffery you have read?</label></td>
+		<td>
+		<select id="Numbersofbooks">
+		<option value="1 to 5">1 to 5</option>
+		<option value="6 to 10">6 to 10</option>
+		<option value="11 to 15">11 to 15</option>
+		<option value="more than 15">more than 15</option>
+		</select></td>
+	</tr>	
+	<tr>
+		<td><span> what is your favourite Tari McCaffery's book?:</span></td>
+		<td>
+		<select id="nameofbooks">
+		<option value="1 to 5">EMMA</option>
+		<option value="6 to 10">THE LIFE OF A TEENAGE</option>
+		<option value="11 to 15">DIVERGENT</option>
+		<option value="more than 15">MY FIRST LOVE</option>
+		<option value="more than 15">TEEN-AGE ROMANCE</option>
+		<option value="more than 15">TURTLESS</option>
+		<option value="more than 15">THE FALSE PRINCE</option>
+		<option value="more than 15">ROALD DAHL</option>
+		<option value="more than 15">THE SECRET OF THE OLD OCLOCK</option>
+		</select></td>
+	</tr>	
+	<tr>
+		<td><label>On a scale from Poor to Excellent, how would you rate your ?:</label></td>
+		<td>
+			
+			<fieldset class="rating">
+			
+			<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Excellent">5 stars</label>
+			<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Very Good">4 stars</label>
+			<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Good">3 stars</label>
+			<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Fair">2 stars</label>
+			<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Poor">1 star</label>
+			</fieldset>
+		</td>
+
+	</tr>	
+</table>
+
+<input type="submit" value="Sign Up"/>
+</form>
+</div>
+</body>
+
+
+
+<footer>
+		<address class="addr">
+		Copyright © 2014 TariMcMcaffery. Designed and maintained by Hussein Messi.
+		<br>
+		(777)017-0177
+		</address>
+</footer>
+</html>
